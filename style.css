@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    line-height: 1.6;
+  }
+  
+  /* Navbar styling */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #003580;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    z-index: 1000;
+    color: white;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navMenu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navMenu li {
+    margin-left: 20px;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navLink:hover {
+    background-color: #97cba9;
+    color: #003580;
+  }
+  
+  .scrolled {
+    background-color: #001d40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section {
+    padding: 100px 20px;
+    height: 100vh;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Add some padding at the top to avoid content overlap */
+  main {
+    padding-top: 70px;
+  }
+  
